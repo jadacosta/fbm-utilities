@@ -2,10 +2,11 @@ from numpy import int64
 import client.inventoryclient
 import json
 import csv
+import config.config
 
 def getInventoriesAge():
     start = 0
-    furyToken = "9521ccfed890fe8d06a5575289997a990a43941d2c5c68cb51208630f01d555d"
+    furyToken = config.furyToken
     total = 9999999
     while(start <= total):
         response = client.inventoryclient.getInventoriesAgeAggregator(start,furyToken,True)
@@ -20,7 +21,7 @@ def getInventoriesAgeScope():
     start = 0
     total = 9999999
     contextId = ""
-    furyToken = "4506f1b38ed8f4ca88937cb906a7543c8932ded95233e0ccf5780f318ea6b845"
+    furyToken = config.furyToken
     while(start <= total):
         response = client.inventoryclient.getInventoriesAgeAggregatorScope(contextId, furyToken)
         result = json.loads(response.text)
