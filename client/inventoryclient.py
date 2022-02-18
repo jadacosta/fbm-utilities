@@ -54,11 +54,11 @@ def saveInventoriesCharges(rowCSV):
                 "tags": [],
                 "is_excluded_from_charge": False,
                 "size":  rowCSV['size'],
-                "site_id": "MLB",
+                "site_id": rowCSV['site'],
                 "total_fee_amount": getDecimalTrunc(rowCSV['total_fee_amount']),
                 "source_id": "",
                 "seller_id": int(rowCSV['seller_id']),
-                "currency_id": "BLR"
+                "currency_id": rowCSV['currency_id']
             }
 	
 	stockdetails={}

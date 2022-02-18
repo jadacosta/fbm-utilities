@@ -1,1 +1,4 @@
 furyToken= ""
+repositotio=""
+servicioDSname=""
+queryDS=""
