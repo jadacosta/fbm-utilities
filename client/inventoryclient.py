@@ -72,6 +72,5 @@ def saveInventoriesCharges(rowCSV):
 			stockdetails[status.name] = None
 	
 	body['stock_details']= stockdetails
-	print('json: ' + str(body))
 
 	return requests.post("https://internal-api.mercadolibre.com/fbm-fee-warehousing-test/fulfillment/fbm-fee-warehousing/inventory-charge",json = body)
