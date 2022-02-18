@@ -1,2 +1,3 @@
 # fbm-utilities
-utilidades para procesos internos en fbm-pricing
+scripts de ayuda para procesos de fbm-pricing
+

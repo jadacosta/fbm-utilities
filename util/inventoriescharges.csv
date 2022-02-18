@@ -1,0 +1,2 @@
+Id,seller_product_id,site,size,seller_id,currency_id,unit_price,total_fee_amount,location_id,date,available_quantity,available_fee_amount,damaged_quantity,damaged_fee_amount,not_supported_quantity,not_supported_fee_amount,reserved_by_internal_process_quantity,reserved_by_internal_process_fee_amount
+1,BESH11473,MLB,small,706985053,BLR,"0,0120","0,1440",BRSP02,2022-01-01,12,"0,1440",null,null,null,null,null,null

@@ -1,0 +1,4 @@
+
+Response[row(1)]: {'error': 'internal_error', 'message': 'Internal server error', 'status': 500},
+Response[row(1)]: {'inventory_id': 'BESH11473', 'date': '2022-01-01', 'site_id': 'MLB', 'size': 'small', 'seller_id': 706985053, 'currency_id': 'BLR', 'total_fee_amount': 0.144, 'unit_price': 0.012, 'location_id': 'BRSP02', 'source_id': '', 'tags': [], 'rule': {'rules_version': 'version_1', 'rules': ['regla_1']}, 'is_excluded_from_charge': False, 'stock_details': {'available': {'quantity': 12, 'fee_amount': 0.144}}},
+Response[row(1)]: {'inventory_id': 'BESH11473', 'date': '2022-01-01', 'site_id': 'MLB', 'size': 'small', 'seller_id': 706985053, 'currency_id': 'BLR', 'total_fee_amount': 0.144, 'unit_price': 0.012, 'location_id': 'BRSP02', 'source_id': '', 'tags': [], 'rule': {'rules_version': 'version_1', 'rules': ['regla_1']}, 'is_excluded_from_charge': False, 'stock_details': {'available': {'quantity': 12, 'fee_amount': 0.144}}},
